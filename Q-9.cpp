@@ -24,7 +24,7 @@ protected:
 //--> Student Work
 class Student :public Person {
 private :
-	string rollno;
+	int rollno;
 protected:
 	void input2() {
 		input1();
@@ -32,7 +32,7 @@ protected:
 	}
 	void output2() {
 		output1();
-		cout << "Roll No is = " << endl;
+		cout << "Roll No is = " << rollno << endl;
 	}
 };
 //---->Math Student
